@@ -4,7 +4,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
-	<title>Ярмарка НОВОГОДНИЙ ПОДАРОК</title>
+	<title>Ярмарка "НОВОГОДНИЙ ПОДАРОК"</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta property="og:title" content="" />
@@ -18,7 +18,10 @@
 	
 </head>
 <body>
-	
+	<div class="up">&#9650;</div>
+
+	<h1>Ярмарка "НОВОГОДНИЙ ПОДАРОК"</h1>
+
 	<header class="py-2 py-sm-3">
 		<div class="container-lg d-flex">
 			<div class="logo d-flex flex-wrap flex-sm-nowrap align-items-center">
@@ -46,16 +49,16 @@
 				<div class="collapse navbar-collapse" id="gift-nav">
 				    <ul class="navbar-nav">
 				    	<li class="nav-item">
-				    		<a class="nav-link" href="#">Информация</a>
+				    		<a class="nav-link" href="#info">Информация</a>
 				    	</li>
 				    	<li class="nav-item">
-				    		<a class="nav-link" href="#">Разделы</a>
+				    		<a class="nav-link" href="#sections">Разделы</a>
 				    	</li>
 				    	<li class="nav-item">
-				    		<a class="nav-link" href="#">Предложения участников</a>
+				    		<a class="nav-link" href="#offers">Предложения участников</a>
 				    	</li>
 				    	<li class="nav-item">
-				        	<a class="nav-link" href="#">Контакты</a>
+				        	<a class="nav-link" href="#contacts">Контакты</a>
 				    	</li>
 				    </ul>
 				</div>
@@ -98,21 +101,301 @@
 		</div>
 		<div class="top-btns d-flex flex-wrap flex-sm-nowrap justify-content-center justify-content-sm-between">
 			<a href="#" class="gift-btn-blue mt-3 mx-1">Принять участие</a>
-			<a href="#" class="gift-btn-beige mt-3 mx-1">Посетить ярмарку</a>
+			<a href="#ticket" data-toggle="modal" class="gift-btn-beige mt-3 mx-1">Посетить ярмарку</a>
 		</div>
 	</main>
+
+	<section class="biggest" id="info">
+		<div class="container-xl text-center">
+			<h2>Крупнейшая ярмарка в России</h2>
+			<img src="img/middle-title.png" alt="" class="middle-title">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 p-0">
+					<div class="biggest-item">
+						<div class="biggest-img"><img src="img/icon-brosh.png" alt=""></div>
+						<h5>СКАЧАТЬ БРОШЮРУ ЯРМАРКИ</h5>
+						<p>Узнайте <br>подробности участия</p>
+						<a href="#" class="gift-btn-blue" download>СКАЧАТЬ БРОШЮРУ</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 p-0">
+					<div class="biggest-item">
+						<div class="biggest-img"><img src="img/icon-uchast.png" alt=""></div>
+						<h5>ПРИНЯТЬ УЧАСТИЕ</h5>
+						<p>Широкие возможности <br>для выгодной торговли</p>
+						<a href="#" class="gift-btn-beige">ПРИНЯТЬ УЧАСТИЕ</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 p-0">
+					<div class="biggest-item">
+						<div class="biggest-img"><img src="img/icon-posetit.png" alt=""></div>
+						<h5>ПОСЕТИТЬ ЯРМАРКУ</h5>
+						<p>Вперед за подарками и <br>яркими впечатлениями!</p>
+						<a href="#ticket" data-toggle="modal" class="gift-btn-beige">ПОСЕТИТЬ ЯРМАРКУ</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 p-0">
+					<div class="biggest-item">
+						<div class="biggest-img"><img src="img/icon-info.png" alt=""></div>
+						<h5>ВАЖНАЯ ИНФОРМАЦИЯ</h5>
+						<p>Применение кассовых аппаратов<br>Ветеринарные документы </p>
+						<a href="#" class="gift-btn-blue" download>СКАЧАТЬ</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="themes" id="sections">
+		<img src="img/section-gift.png" alt="" class="themes-gift">
+		<img src="img/snow-fon.png" alt="" class="snow-fon-top">
+		<div class="themes-container">
+			<h2 class="text-white">Тематика ярмарки</h2>
+			<div class="themes-wrap d-flex flex-wrap justify-content-around justify-content-md-center">
+				<a href="#" class="themes-item">
+					<img src="img/section-1.jpg" alt="">
+					<div class="themes-title">ОДЕЖДА, ОБУВЬ, <br>ИЗДЕЛИЯ ИЗ МЕХА</div>
+				</a>
+				<a href="#" class="themes-item">
+					<img src="img/section-2.jpg" alt="">
+					<div class="themes-title">ЮВЕЛИРНЫЕ ИЗДЕЛИЯ, <br>БИЖУТЕРИЯ И АКСЕССУАРЫ</div>
+				</a>
+				<a href="#" class="themes-item">
+					<img src="img/section-3.jpg" alt="">
+					<div class="themes-title">ДИЗАЙНЕРСКИЕ ИЗДЕЛИЯ</div>
+				</a>
+				<a href="#" class="themes-item">
+					<img src="img/section-4.jpg" alt="">
+					<div class="themes-title">КОРПОРАТИВНЫЕ <br>И VIP-ПОДАРКИ</div>
+				</a>
+				<a href="#" class="themes-item">
+					<img src="img/section-5.jpg" alt="">
+					<div class="themes-title">ТОВАРЫ ДЛЯ ДЕТЕЙ</div>
+				</a>
+				<a href="#" class="themes-item">
+					<img src="img/section-6.jpg" alt="">
+					<div class="themes-title">ТОВАРЫ ДЛЯ КРАСОТЫ <br>И ЗДОРОВЬЯ</div>
+				</a>
+				<a href="#" class="themes-item">
+					<img src="img/section-7.jpg" alt="">
+					<div class="themes-title">ТОВАРЫ ДЛЯ ДОМА</div>
+				</a>
+				<a href="#" class="themes-item">
+					<img src="img/section-8.jpg" alt="">
+					<div class="themes-title">НОВОГОДНЯЯ АТРИБУТИКА</div>
+				</a>
+				<a href="#" class="themes-item">
+					<img src="img/section-9.jpg" alt="">
+					<div class="themes-title">ГАСТРОНОМИЧЕСКАЯ <br>ЭКСПОЗИЦИЯ</div>
+				</a>
+				<img src="img/big-shar.png" alt="" class="big-shar">
+			</div>
+		</div>
+		<img src="img/snow-fon.png" alt="" class="snow-fon-bottom">
+		<a href="#ticket" data-toggle="modal" class="gift-btn-beige mt-5 mx-auto">Посетить ярмарку</a>
+	</section>
+
+	<section class="comments">
+		<h2>Довольны взрослые и дети!</h2>
+		<div class="comments-slider-wrap">
+			<h4 class="text-uppercase text-center">Отзывы участников и посетителей</h4>
+			<div class="comments-slider">
+				<div class="d-flex">
+					<img src="img/quote.png" alt="" class="quote-left">
+					<div class="comments-text">
+						Спасибо за организацию, постоянное информационное сопровождение на выставке и интересную программу для посетителей.
+						<p>ООО ЛюксФиш, товары для кухни</p>
+					</div>
+					<img src="img/quote.png" alt="" class="quote-right">
+				</div>
+				<div class="d-flex">
+					<img src="img/quote.png" alt="" class="quote-left">
+					<div class="comments-text">
+						Впервые пришел на эту ярмарку – решил найти интересные подарки, не как у всех в магазинах. Доволен покупками – нашел интересные вещи, а еще купил деликатесы. Советую к посещению.
+						<p>Сергей</p>
+					</div>
+					<img src="img/quote.png" alt="" class="quote-right">
+				</div>
+				<div class="d-flex">
+					<img src="img/quote.png" alt="" class="quote-left">
+					<div class="comments-text">
+						Постоянный участник этой ярмарки. Отличная организация, удобный заезд и приветливые администраторы, которые всегда помогут. Спасибо!
+						<p>ИП Сойнов, «Косметика Новосибирска»</p>
+					</div>
+					<img src="img/quote.png" alt="" class="quote-right">
+				</div>
+				<div class="d-flex">
+					<img src="img/quote.png" alt="" class="quote-left">
+					<div class="comments-text">
+						Узнала о выставке из социальных сетей – пришла познакомиться с авторскими елочными игрушками, так как очень люблю оригинальные дизайнерские вещи. На стендах так много красоты – спасибо участникам за труд и организаторам, что собрали всех вместе!
+						<p>Ольга</p>
+					</div>
+					<img src="img/quote.png" alt="" class="quote-right">
+				</div>
+				<div class="d-flex">
+					<img src="img/quote.png" alt="" class="quote-left">
+					<div class="comments-text">
+						Впервые участвовали в «Новогоднем подарке» - понравились организация, планировка стендов, отличное привлечение покупателей, развлекательная программа.
+						<p>ИП Васильева, парфюмерия «АЮ DREAMS»</p>
+					</div>
+					<img src="img/quote.png" alt="" class="quote-right">
+				</div>
+				<div class="d-flex">
+					<img src="img/quote.png" alt="" class="quote-left">
+					<div class="comments-text">
+						Часто ходим на ярмарки, не пропускаем и «Новогодний подарок»! Приходим за продуктами, особенно нравится выбирать здесь сухофрукты, орешки и мед – здесь и выбор отличный, и цены ниже, чем в магазинах.
+						<p>Ирина Олеговна и Виктор Иванович</p>
+					</div>
+					<img src="img/quote.png" alt="" class="quote-right">
+				</div>
+				<div class="d-flex">
+					<img src="img/quote.png" alt="" class="quote-left">
+					<div class="comments-text">
+						Прекрасная новогодняя атмосфера и замечательная развлекательная программа – спасибо за организацию, успехов!
+						<p>ООО Новгород Тандем, елочные шары ручной работы</p>
+					</div>
+					<img src="img/quote.png" alt="" class="quote-right">
+				</div>
+				<div class="d-flex">
+					<img src="img/quote.png" alt="" class="quote-left">
+					<div class="comments-text">
+						Посещаю ярмарку каждый год – и всегда нахожу что-нибудь особенное! В этот раз купила прекрасные натуральные масла, мягкий трикотаж и дизайнерское украшение – к Новому году готова!
+						<p>Алина Васильевна</p>
+					</div>
+					<img src="img/quote.png" alt="" class="quote-right">
+				</div>
+			</div>
+		</div>
+		<a href="" class="gift-btn-blue">Принять участие</a>
+		<img src="img/otzyvy-family.png" alt="" class="comments-pic">
+	</section>
+
+	<section class="container-lg partners">
+		<h2>Партнеры ярмарки</h2>
+		<div class="part-slider">
+			<div class="partner"><img src="https://expogift.ru/bitrix/templates/expogift2018/img/logo-1.png" alt="" /></div>
+			<div class="partner"><img src="https://expogift.ru/bitrix/templates/expogift2018/img/logo-2.png" alt="" /></div>
+			<div class="partner"><img src="https://expogift.ru/bitrix/templates/expogift2018/img/logo-4.png" alt="" /></div>
+			<div class="partner"><a href="https://master-forum.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/8f9/Master_forum.gif" alt="" /></a></div>
+			<div class="partner"><a href="https://hullabaloo.ru/" target="_blank"><img src="https://expogift.ru/bitrix/templates/expogift2018/img/logo-6.png" alt="" /></a></div>
+			<div class="partner"><img src="https://expogift.ru/upload/medialibrary/d1e/masterjournal.gif" alt="" /></div>
+			<div class="partner"><img src="https://expogift.ru/upload/medialibrary/270/event_map.jpg" alt="" /></div>
+			<div class="partner"><a href="http://skrmaster.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/34e/skrmaster.jpg" alt="" /></a></div>
+			<div class="partner"><img src="https://expogift.ru/upload/medialibrary/60f/rabotnica.jpg" alt="" /></div>
+			<div class="partner"><img src="https://expogift.ru/upload/medialibrary/455/spbdnevnik.jpg" alt="" /></div>
+			<div class="partner"><img src="https://expogift.ru/upload/medialibrary/a52/7ya.jpg" alt="" /></div>
+			<div class="partner"><img src="https://expogift.ru/upload/medialibrary/957/12345.jpg" alt="" /></div>
+			<div class="partner"><a href="https://allcafe.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/1df/allcafe.jpg" alt="" /></a></div>
+			<div class="partner"><img src="https://expogift.ru/upload/medialibrary/228/Fenix-Media-Group.jpg" alt="" /></div>
+			<div class="partner"><a href="https://megakupon.ru/sankt-peterburg" target="_blank"><img src="https://expogift.ru/upload/medialibrary/8e7/megakupon.png" alt="" /></a></div>
+			<div class="partner"><a href="https://expomap.ru/?utm_source=partner" target="_blank"><img src="https://expogift.ru/upload/medialibrary/ad1/partner_100x100.gif" alt="" /></a></div>
+			<div class="partner"><a href="http://b2bcontact.ru/tp" target="_blank"><img src="https://expogift.ru/bitrix/templates/horeca-new/img/partners/tochka.png" alt="" /></a></div>
+			<div class="partner"><a href="http://stepin-design.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/dfa/step_in_design_logo.png" alt="" /></a></div>
+			<div class="partner"><a href="https://spbvedomosti.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/d8c/spbvedomosti.jpg" alt="" /></a></div>
+			<div class="partner"><a href="https://piterzavtra.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/a97/piterz_2.png" alt="" width="100" /></a></div>
+			<div class="partner"><a href="http://www.perfect-magazine.ru" target="_blank"><img src="https://expogift.ru/upload/medialibrary/e36/perfect.gif" alt="" /></a></div>
+			<div class="partner"><a href="http://www.welcomespb.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/7b6/welcome.gif" alt="" width="100" /></a></div>
+			<div class="partner"><a href="https://www.vashdosug.ru/spb/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/51a/dosug.jpg" alt="" /></a></div>
+			<div class="partner"><a href="http://for-m.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/b9a/format_m.jpg" alt="" /></a></div>
+			<div class="partner"><a href="http://kurier-media.com/pdfs/rubrics/2/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/5e7/kurier.jpg" alt="" /></a></div>
+			<div class="partner"><a href="http://www.restmag.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/751/otdyh.jpg" alt="" /></a></div>
+			<div class="partner"><a href="http://kstolica.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/d96/culture_st.jpg" alt="" /></a></div>
+			<div class="partner"><a href="https://lkray.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/af8/lk.jpg" alt="" /></a></div>
+			<div class="partner"><a href="https://vk.com/chastnayagalereya" target="_blank"><img src="https://expogift.ru/upload/medialibrary/0d0/chastgal.jpg" alt="" /></a></div>
+			<div class="partner"><img src="https://expogift.ru/upload/medialibrary/004/pens.png" alt="" /></div>
+			<div class="partner"><a href="https://www.lorenz-snackworld.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/dd3/Lorenz.jpg" alt="" /></a></div>
+			<div class="partner"><a href="https://drkorner.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/70a/DrKorner.jpg" alt="" /></a></div>
+			<div class="partner"><a href="https://www.emdi.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/50d/emdi.jpg" alt="" /></a></div>
+			<div class="partner"><a href="http://www.biznes-vremia.net/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/18f/logo_nv.jpg" alt="" /></a></div>
+			<div class="partner"><a href="http://www.dom-online.ru" target="_blank"><img src="https://expogift.ru/upload/medialibrary/7b6/dom_online_100X100.gif" alt="" /></a></div>
+			<div class="partner"><a href="https://www.gorodovoy.spb.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/9f6/logo_gorgorod.jpg" alt="" /></a></div>
+			<div class="partner"><a href="http://russkayamoda.com/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/3ea/RM.jpg" alt="" /></a></div>
+			<div class="partner"><a href="http://perfect-magazine.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/441/Sovershenstvo.jpg" alt="" /></a></div>
+			<div class="partner"><a href="https://spb-gid.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/3bf/okno.jpg" alt="" /></a></div>
+			<div class="partner"><a href="http://moda247.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/b06/moda247logo.jpg" alt="" /></a></div>
+			<div class="partner"><a href="http://www.zs-z.ru/" target="_blank"><img src="https://expogift.ru/upload/medialibrary/f7d/zemle.jpg" alt="" /></a></div>
+		</div>
+	</section>
+
+	<section class="contacts" id="contacts">
+		<img src="img/snow-fon.png" alt="" class="snow-fon">
+		<div class="container-xl">
+			<h2 class="text-lg-left text-white">Контакты</h2>
+			<div class="row">
+				<div class="col-lg-6 bottom-uchastie text-center text-lg-left">
+					<h4>Хотите принять участие в ярмарке?</h4>
+					<table class="text-white text-uppercase">
+						<tr>
+							<td>Звоните</td>
+							<td>
+								<a href="tel:+78127183537" class="text-white pl-2 pb-2"><img src="img/phone.png" alt=""> +7 (812) 718-35-37</a><br>
+								<a href="tel:+79218849001" class="text-white"><img src="img/mob.png" alt=""> + 7 (921) 884-90-01</a>
+							</td>
+						</tr>
+						<tr>
+							<td>Пишите</td>
+							<td><a href="mailto:nb@farexpo.ru" class="text-white"><img src="img/mail.png" alt=""> nb@farexpo.ru</a></td>
+						</tr>
+					</table>
+					<a href="#" class="gift-btn-beige mt-2">Принять участие</a>
+				</div>
+				<div class="col-lg-3 col-sm-6 bottom-place text-white text-uppercase text-center text-sm-left pt-5 p-lg-0">
+					<h4>Место проведения:</h4>
+					<p class="mt-4 ml-3"><span class="font-weight-bold">КВЦ «ЭКСПОФОРУМ»</span> <br><small>Петербургское шоссе 64/1</small></p>
+					<p class="ml-3 pb-1"><span class="font-weight-bold">ВК «ЛЕНЭКСПО»</span> <br><small>Большой пр. В. О., 103</small></p>
+					<a href="#ticket" data-toggle="modal" class="gift-btn-beige mt-4">Посетить ярмарку</a>
+				</div>
+				<div class="col-lg-3 col-sm-6 text-center text-sm-right pt-5 pt-lg-0">
+					<h4>Мы в соц.сетях</h4>
+					<div class="soc-icons pt-4 pr-sm-4">
+						<a href="https://vk.com/spb_expo" target="_blank"><img src="img/vk.png" alt=""></a>
+						<a href="https://www.facebook.com/farexpospb/" target="_blank"><img src="img/fb.png" alt=""></a>
+						<a href="https://www.instagram.com/spb_expo/" target="_blank"><img src="img/inst.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="map">
+		<div class="map-block lenexpo">
+			<img src="img/map.png" alt="" class="map-block-pic">
+			<p class="map-place text-uppercase">
+				<b>ВК «ЛЕНЭКСПО»</b><br>
+				<span>Большой пр. В. О., 103</span>
+			</p>
+			<img src="img/bus.png" alt="">
+			<p class="free-bus text-uppercase pt-2 mb-0">Бесплатный автобус</p>
+			<p class="map-small-text m-0">от ст. м. «Приморская» <br>до ВК ЛЕНЭКСПО</p>
+		</div>
+		<div class="map-block expoforum">
+			<img src="img/map.png" alt="" class="map-block-pic">
+			<p class="map-place text-uppercase">
+				<b>КВЦ «ЭКСПОФОРУМ»</b><br>
+				<span>Петербургское шоссе 64/1</span>
+			</p>
+			<img src="img/bus.png" alt="">
+			<p class="free-bus text-uppercase pt-2 mb-0">Бесплатный автобус</p>
+			<p class="map-small-text m-0">от ст. м. «Московская» <br>до КВЦ Экспофорум</p>
+		</div>
+		<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2e99f99b29f512bfc3c22e3b76ff6acd8150032c576a81a2b760f0cb9a762f3f&amp;source=constructor" width="100%" height="760" frameborder="0"></iframe>
+	</div>
+
+	<footer class="text-center text-uppercase text-white py-4 px-2">
+		Все права защищены &copy; 2020
+	</footer>
 	
-	<div class="modal fade" id="plitka" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal fade" id="ticket" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog mt-5" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title font-weight-bold w-100 text-center">Введите контакты для отправки информации</h5>
+					<h5 class="modal-title font-weight-bold w-100 text-center">Информация о билетах появится позднее</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
-				<div class="modal-body p-5">
-					
+				<div class="modal-body px-3 pb-4">
+					<img src="img/otzyvy-family.png" alt="" class="img-fluid">
 				</div>
 			</div>
 		</div>
